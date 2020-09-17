@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/customLayoutId"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/holo_red_light"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/icon_smile"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+    </ImageView>
+<TextView
+    android:id="@+id/customTextId"
+    android:layout_marginLeft="5dp"
+    android:text="Custom Toast"
+    android:textSize="25dp"
+    android:textAllCaps="false"
+    android:layout_marginTop="5dp"
+    android:textColor="@android:color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</TextView>
+
+
+</LinearLayout>
